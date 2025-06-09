@@ -1,10 +1,10 @@
-import Nav from "./components/nav"
+import Homepage from "./pages/Homepage"
 
 const App = () => {
   return (
     <>
     <div>
-      <Nav/>
+      <Homepage/>
     </div>
     </>
   )
