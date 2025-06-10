@@ -1,10 +1,15 @@
-import React from 'react';
+import heroImg from "../../src/assets/homeImage/heropic.jpg";
 
 const HeroBanner = () => {
   return (
-    <section className="relative h-[80vh] bg-cover bg-center" style={{ backgroundImage: "url('/assets/nepal-hero.jpg')" }}>
-      <div className="absolute inset-0 bg-black/50 flex items-center justify-center px-4">
-        <div className="text-center text-white max-w-2xl">
+    <section className="relative h-screen bg-cover bg-center">
+      <img
+        src={heroImg}
+        alt="hero image"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      <div className="absolute inset-0 bg-black/60 flex items-center justify-center px-4">
+        <div className="text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold drop-shadow-md">
             Hamro Yatra Nepal
           </h1>
@@ -14,6 +19,10 @@ const HeroBanner = () => {
           <button className="mt-8 bg-white text-black px-6 py-3 rounded-full text-sm md:text-base font-semibold shadow-md hover:bg-gray-100 transition">
             Explore Destinations
           </button>
+        </div>
+        <div className="bg-red-700 border border-yellow-400">
+          <img src="
+          " alt="" />
         </div>
       </div>
     </section>
