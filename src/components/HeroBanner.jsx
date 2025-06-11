@@ -1,4 +1,5 @@
 import heroImg from "../../src/assets/homeImage/heropic.jpg";
+import sideImg from "../../src/assets/homeImage/heroimg2.jpg"
 
 const HeroBanner = () => {
   return (
@@ -8,7 +9,7 @@ const HeroBanner = () => {
         alt="hero image"
         className="absolute inset-0 w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-black/60 flex items-center justify-center px-4">
+      <div className="absolute inset-0 bg-black/60 flex items-center justify-center gap-48 px-4">
         <div className="text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold drop-shadow-md">
             Hamro Yatra Nepal
@@ -20,9 +21,10 @@ const HeroBanner = () => {
             Explore Destinations
           </button>
         </div>
-        <div className="bg-red-700 border border-yellow-400">
-          <img src="
-          " alt="" />
+        <div className="">
+          <img src={sideImg} alt=""
+          className="rounded-3xl h-[23rem]"
+          />
         </div>
       </div>
     </section>
