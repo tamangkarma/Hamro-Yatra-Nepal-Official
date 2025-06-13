@@ -21,6 +21,7 @@ const HeroBanner = () => {
             Explore Destinations
           </button>
           <p>where all the beauty</p>
+          <p>where all the beauty</p>
         </div>
         <div className="">
           <img src={sideImg} alt=""
