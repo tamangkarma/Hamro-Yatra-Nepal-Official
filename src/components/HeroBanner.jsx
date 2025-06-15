@@ -1,5 +1,5 @@
 import heroImg from "../../src/assets/homeImage/heropic.jpg";
-import sideImg from "../../src/assets/homeImage/heroimg2.jpg"
+// import sideImg from "../../src/assets/homeImage/heroimg2.jpg"
 
 const HeroBanner = () => {
   return (
@@ -20,15 +20,12 @@ const HeroBanner = () => {
           <button className="mt-8 bg-white text-black px-6 py-3 rounded-full text-sm md:text-base font-semibold shadow-md hover:bg-gray-100 transition">
             Explore Destinations
           </button>
-          <p>where all the beauty</p>
-          <p>where all the beauty</p>
-          <p>where all the beauty</p>
         </div>
-        <div className="">
+        {/* <div className="">
           <img src={sideImg} alt=""
           className="rounded-3xl h-[23rem]"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );
