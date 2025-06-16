@@ -1,5 +1,5 @@
 import heroImg from "../../src/assets/homeImage/heropic.jpg";
-// import sideImg from "../../src/assets/homeImage/heroimg2.jpg"
+import sideImg from "../../src/assets/homeImage/heroimg2.jpg"
 
 const HeroBanner = () => {
   return (
@@ -21,11 +21,11 @@ const HeroBanner = () => {
             Explore Destinations
           </button>
         </div>
-        {/* <div className="">
+        <div className="">
           <img src={sideImg} alt=""
           className="rounded-3xl h-[23rem]"
           />
-        </div> */}
+        </div>
       </div>
     </section>
   );
