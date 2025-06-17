@@ -26,6 +26,10 @@ const HeroBanner = () => {
           className="rounded-3xl h-[23rem]"
           />
         </div> */}
+
+        <div>
+          <p>This is the Best Places of Nepal to visit</p>
+        </div>
       </div>
     </section>
   );
