@@ -26,6 +26,9 @@ const HeroBanner = () => {
           className="rounded-3xl h-[23rem]"
           />
         </div>
+        <div>
+          <h1>THis is just demo</h1>
+        </div>
       </div>
     </section>
   );
