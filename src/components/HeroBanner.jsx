@@ -28,6 +28,7 @@ const HeroBanner = () => {
         </div>
         <div>
           <h1>THis is just demo</h1>
+          <p></p>
         </div>
       </div>
     </section>
