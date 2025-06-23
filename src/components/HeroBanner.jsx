@@ -27,8 +27,9 @@ const HeroBanner = () => {
           />
         </div>
         <div>
-          <h1>THis is just demo</h1>
-          <p></p>
+          <img src={sideImg} alt=""
+          className="rounded-3xl h-[23rem]"
+          />
         </div>
       </div>
     </section>
