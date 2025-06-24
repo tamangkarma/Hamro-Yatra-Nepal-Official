@@ -26,11 +26,6 @@ const HeroBanner = () => {
           className="rounded-3xl h-[23rem]"
           />
         </div>
-        <div>
-          <img src={sideImg} alt=""
-          className="rounded-3xl h-[23rem]"
-          />
-        </div>
       </div>
     </section>
   );
