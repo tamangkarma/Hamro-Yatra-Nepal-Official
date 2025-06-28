@@ -9,6 +9,7 @@ const About = () => {
       <p>We offer a variety of tours and packages to suit every traveler's needs, from trekking in the Himalayas to cultural tours in the Kathmandu Valley.</p>
       <p>Our mission is to create unforgettable memories for our clients while promoting sustainable tourism practices in Nepal.</p>
       <p>Join us on an adventure of a lifetime!</p>
+      <p>done</p>
     </>
   )
 }
