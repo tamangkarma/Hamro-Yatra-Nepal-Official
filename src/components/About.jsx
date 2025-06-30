@@ -10,6 +10,7 @@ const About = () => {
       <p>Our mission is to create unforgettable memories for our clients while promoting sustainable tourism practices in Nepal.</p>
       <p>Join us on an adventure of a lifetime!</p>
       <h1>This is all</h1>
+      <p>Okay this is just a</p>
     </>
   )
 }
