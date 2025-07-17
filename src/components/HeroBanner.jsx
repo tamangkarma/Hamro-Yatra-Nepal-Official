@@ -21,7 +21,7 @@ const HeroBanner = () => {
             Explore Destinations
           </button>
         </div>
-        <div className="">
+        <div className="w-72">
           <img src={sideImg} alt=""
           className="rounded-3xl h-[23rem]"
           />
