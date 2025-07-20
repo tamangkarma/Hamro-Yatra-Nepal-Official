@@ -14,8 +14,8 @@ const HeroBanner = () => {
           <h1 className="text-xl  md:text-6xl font-bold drop-shadow-md">
             Hamro Yatra Nepal
           </h1>
-          <p className="mt-4 text-lg md:text-2xl font-medium italic ">
-            Discover Nepal, Live the Journey
+          <p className="mt-4 text-lg md:text-3xl font-medium italic ">
+            Discover Nepal, Live the Journey 
           </p>
           <button className="mt-8 bg-white text-black px-6 py-3 rounded-full text-sm md:text-base font-semibold shadow-md hover:bg-gray-100 transition">
             Explore Destinations
